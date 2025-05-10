@@ -135,6 +135,7 @@ body {
     border: none;
     cursor: pointer;
     transition: 0.3s ease;
+    -webkit-tap-highlight-color: transparent;
 }
 #btnContinue:active {
     background-image: linear-gradient(to top, rgb(53, 44, 240),rgb(104, 68, 255));

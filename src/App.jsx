@@ -1,11 +1,6 @@
 import { useState } from 'react'
-import iconMemory from "./assets/icon-memory.svg"
-import iconReaction from "./assets/icon-reaction.svg"
-import iconVerbal from "./assets/icon-verbal.svg"
-import iconVisual from "./assets/icon-visual.svg"
 import './App.css'
-import data from "./data.json"
-console.log(data)
+import Summary from './components/summary'
 
 function App() {
   return (
@@ -23,12 +18,7 @@ function App() {
       </div>
       <div className='AppRight'>
         <div className='rightTitre'>Summary</div>
-        <div className='summary'>
-          <div className='summaryElement'><div className="innerElement"><img src={iconReaction} alt="" />Reaction</div> <span className='chiffres'><b>80 </b>/ 100</span></div>
-          <div className='summaryElement'><div className="innerElement"><img src={iconMemory} alt="" />Memory</div> <span className='chiffres'><b>92 </b>/ 100</span></div>
-          <div className='summaryElement'><div className="innerElement"><img src={iconVerbal} alt="" />Verbal</div> <span className='chiffres'><b>61 </b>/ 100</span></div>
-          <div className='summaryElement'><div className="innerElement"><img src={iconVisual} alt="" />Visual</div> <span className='chiffres'><b>73 </b>/ 100</span></div>
-        </div>
+        <Summary/>
         <div className='boxBtn'>
           <button id='btnContinue'>Continue</button>
         </div>

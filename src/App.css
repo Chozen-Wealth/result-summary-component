@@ -136,7 +136,7 @@ body {
     cursor: pointer;
     transition: 0.3s ease;
 }
-#btnContinue:hover {
+#btnContinue:active {
     background-image: linear-gradient(to top, rgb(53, 44, 240),rgb(104, 68, 255));
 }
 

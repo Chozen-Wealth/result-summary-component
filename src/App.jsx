@@ -4,6 +4,8 @@ import iconReaction from "./assets/icon-reaction.svg"
 import iconVerbal from "./assets/icon-verbal.svg"
 import iconVisual from "./assets/icon-visual.svg"
 import './App.css'
+import data from "./data.json"
+console.log(data)
 
 function App() {
   return (
